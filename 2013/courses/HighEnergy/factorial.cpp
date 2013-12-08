@@ -1,4 +1,4 @@
-// factorial calculator
+// factorial calculator updated 8th Dec
 #include <iostream>
 using namespace std;
 
