@@ -12,7 +12,7 @@
 using namespace std;
 void example_stack(TString plotname)
 {
-  //  gROOT->ProcessLine(".L tdrstyle.C");
+  //  gROOT->ProcessLine(".L tdrstyle.C"); // use when available
   //  setTDRStyle();
   gStyle->SetOptStat(0);
   TString copyname = plotname;
