@@ -13,7 +13,7 @@ using namespace std;
 void example_stack(TString plotname)
 {
   //  gROOT->ProcessLine(".L tdrstyle.C"); // use when available
-  //  setTDRStyle();
+  //  setTDRStyle(); // just to set tdrstyle
   gStyle->SetOptStat(0);
   TString copyname = plotname;
   TCanvas *c1 = new TCanvas("c1","A Simple Graph Example",200,10,700,500);
